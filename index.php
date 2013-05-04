@@ -45,11 +45,11 @@
 	      <h3>Links</h3>
 	      <address>
 	        <strong>Dev Blog</strong><br>
-	        <a href="http://teamidentitycrisis.wordpress.com/">Blog</a>
+	        <a href="#myModal" role="button" class="btn" data-remote="hoti-poly.html" data-toggle="modal">Blog</a>
 	      </address>
 	      <address>
 	        <strong>Videos</strong><br>
-	        <a href="hoti-trailer.html" role="button" class="btn" data-remote="hoti-trailer.html" data-toggle="modal">Trailer</a>
+	        <a href="#myModal" role="button" class="btn" data-remote="hoti-trailer.html" data-toggle="modal">Trailer</a>
 	      </address>
 	      <span class="label label-success">Game</span>
 	      <span class="label label-inverse">3D</span>
@@ -69,6 +69,10 @@
     <h3 id="myModalLabel">Modal header</h3>
   </div>
   <div class="modal-body">
+  	Loading Content...
+  	<div class="progress progress-striped active">
+        <div class="bar" style="width: 100%"></div>
+    </div>
   </div>
   <div class="modal-footer">
     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -90,7 +94,11 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
 	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.js"></script>
 	<!-- Modal Remote Fix -->
-	
+	<script>
+		$('body').on('hidden', '.modal', function () {
+		  $(this).removeData('modal');
+		});
+	</script>
 
 </body>
 </html>

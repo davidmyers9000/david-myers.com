@@ -43,7 +43,7 @@
 	</div>
 
 <!-- feature -->
-<div id="container">
+<div class="container">
 	<section id="portfolio">
 	
 <!--=== portfolio item 1 ===-->	
@@ -272,16 +272,15 @@
 	    <div class="span4">
 	      <h3>Links</h3>
 	      <address>
-<<<<<<< HEAD
+
 	        <a href="#myModal" role="button" class="btn btn-large btn-block btn-primary" data-remote="hoti-trailer.html" data-toggle="modal"><i class="icon-play icon-white icon-white icon-white"></i> Trailer</a>
-=======
 	        <strong>Dev Blog</strong><br>
 	        <a href="#myModal" role="button" class="btn" data-remote="hoti-poly.html" data-toggle="modal">Blog</a>
 	      </address>
 	      <address>
 	        <strong>Videos</strong><br>
 	        <a href="#myModal" role="button" class="btn" data-remote="hoti-trailer.html" data-toggle="modal">Trailer</a>
->>>>>>> ce67f3988439be942553953a4eaaf3bd70be156d
+
 	      </address>
 	      <strong>Tags</strong><br />
 	      <span class="badge badge-success">Game</span>
@@ -331,15 +330,15 @@
 	<!-- Modal Remote Fix -->
 	<script>
 		$('body').on('hidden', '.modal', function () {
-<<<<<<< HEAD
+
 		//refresh modal content
 			$(this).removeData('modal');
 		  
 		  });
-=======
+
 		  $(this).removeData('modal');
 		});
->>>>>>> ce67f3988439be942553953a4eaaf3bd70be156d
+
 	</script>
 
 </body>

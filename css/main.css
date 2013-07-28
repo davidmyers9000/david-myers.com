@@ -9,16 +9,28 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Advent Pro', sans-serif;
 }
 
+h4 {
+	line-height: 1.5em;
+}
+
 #container{
 	margin: 0px auto;
 }
 
-#prof-pic {
-	margin: 40px auto;
-	background:url(../img/profile.png);
-	width: 463px;
-	height: 252px;
+#greeting {
+	margin-bottom:100px;
 }
+
+	#prof-pic {
+		margin-top: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 40px;
+		background: url(../img/profile.png) no-repeat;
+		background-size: contain;
+		max-width: 463px;
+		height: 252px;
+	}
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -29,7 +41,7 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
  
 	#prof-pic{
-		 background: top left url(../img/profile_@2X.png);
+		 background: top left url(../img/profile_@2X.png) no-repeat;
 		 background-size: contain;
 	}
 }

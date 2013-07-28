@@ -3,6 +3,12 @@
  * davidmyers9000@gmail.com
  */
 
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100);
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Advent Pro', sans-serif;
+}
+
 #container{margin:0px auto;}
 
 /* spacing between items */

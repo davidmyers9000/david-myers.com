@@ -5,12 +5,30 @@
 
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100);
 
+article {
+	padding-bottom:80px;
+}
+
+.well {
+	background-color:#303030;
+	padding-bottom:0px;
+}
+
+.well h1 {
+	color:#fff
+}
+
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Advent Pro', sans-serif;
 }
 
 h4 {
 	line-height: 1.5em;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
 }
 
 #container{
@@ -46,15 +64,3 @@ only screen and (                min-resolution: 2dppx) {
 	}
 }
 
-
-Source: http://designmodo.com/design-retina-displays/#ixzz2aMlMpi11
-
-/* spacing between items */
-article {
-	margin-bottom: 100px
-}
-
-p{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
-}

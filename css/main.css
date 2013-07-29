@@ -10,12 +10,13 @@ article {
 }
 
 .well {
-	background-color:#303030;
-	padding-bottom:0px;
+	background: none;
+	margin-bottom:0px;
+	padding-left: 0px;
 }
 
 .well h1 {
-	color:#fff
+	color:#333
 }
 
 h1, h2, h3, h4, h5, h6{

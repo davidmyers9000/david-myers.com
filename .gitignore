@@ -2,7 +2,8 @@
 ## Dreamweaver
 #################
 
-_notes/
+**/notes/
+notes/
 
 #################
 ## Eclipse
@@ -167,3 +168,19 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+_notes/dwsync.xml
+
+_notes/dwsync.xml
+
+css/_notes/dwsync.xml
+
+css/_notes/dwsync.xml
+
+img/_notes/dwsync.xml
+
+img/_notes/dwsync.xml
+
+resume/_notes/dwsync.xml
+
+resume/_notes/dwsync.xml
